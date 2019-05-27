@@ -1,0 +1,34 @@
+body {
+min-height: 100vh;
+display: flex;
+align-items: center; 
+justify-content: center;
+}
+.pics {
+    flex:0 0 80%;
+    min-height: 70vh;
+    background: url('img/DSC-0.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.btn {
+    display: inline-block;
+    background: white;
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    border-radius: 20%;
+    outline: none;
+}
+.prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%)
+}
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%)
+}
+
